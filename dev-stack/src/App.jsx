@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
+import Footer from "./components/Footer";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -83,6 +84,7 @@ function App() {
         )}
       </section>
 
+      <Footer />
       <ToastContainer autoClose={2000} />
     </div>
   );
