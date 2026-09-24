@@ -12,7 +12,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [stack, setStack] = useState([]);
 
-  // load data from the json file when the page opens
+
   useEffect(() => {
     fetch("/technologies.json")
       .then((res) => res.json())
